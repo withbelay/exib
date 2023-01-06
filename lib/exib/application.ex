@@ -9,12 +9,6 @@ defmodule Exib.Application do
   def start(_type, _args) do
     children = [
       {Exib.AccountServ, []}
-      # {Exib.Ws, []},
-      # {Exib.OptionProtection, {"AMD", 81.55, :sell}},
-      # %{
-      #  id: Exib.AccountServ,
-      #  start: {Exib.AccountServ, :init, [%{}]}
-      # }
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
